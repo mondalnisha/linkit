@@ -1,0 +1,1363 @@
+@font-face {
+    font-family: 'HK Grotesk Pro';
+    src: url('../fonts/HKGroteskPro-Regular.eot');
+    src: url('../fonts/HKGroteskPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HKGroteskPro-Regular.woff2') format('woff2'),
+        url('../fonts/HKGroteskPro-Regular.woff') format('woff'),
+        url('../fonts/HKGroteskPro-Regular.ttf') format('truetype'),
+        url('../fonts/HKGroteskPro-Regular.svg#HKGroteskPro-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot');
+    src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.woff2') format('woff2'),
+        url('../fonts/icomoon.woff') format('woff'),
+        url('../fonts/icomoon.ttf') format('truetype'),
+        url('../fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HK Grotesk Pro';
+    src: url('../fonts/HKGroteskPro-Medium.eot');
+    src: url('../fonts/HKGroteskPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/HKGroteskPro-Medium.woff2') format('woff2'),
+        url('../fonts/HKGroteskPro-Medium.woff') format('woff'),
+        url('../fonts/HKGroteskPro-Medium.ttf') format('truetype'),
+        url('../fonts/HKGroteskPro-Medium.svg#HKGroteskPro-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+body, html {
+    overflow-x: hidden;
+} 
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.navbar-divice {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-menu {
+    display: flex;
+    width: 100%;
+}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #a7b2c7;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #fff;
+
+}
+.navbar-inverse .navbar-toggle .icon-bar:hover {
+    border-color: #a7b2c7;
+}
+.navbar-inverse .navbar-nav>li>a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #506690;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #335eea;
+    
+}
+.btn-group-lg>.btn, .btn-lg {
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+}
+.btn-primary {
+    border-color: #fff;
+    background-color: #335eea;
+}
+
+.bannar {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bannar .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col-text h1 {
+    margin: 0;
+    line-height: 57px;
+    font-weight: 300;
+    font-size: 48px;
+    font-family: 'HK Grotesk Pro';
+}
+
+.col-p {
+    margin: 0;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    line-height: 35px;
+    font-size: 20px;
+    color: #869ab8!important;
+    font-family: 'HK Grotesk Pro';
+}
+.col-botton {
+    padding: 30px 0;
+}
+.col-button-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+    justify-content: center;
+}
+.botton-box-1 {
+    padding: 0 5px;
+    
+}
+.botton-box-1 a {
+    border: none;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    padding: 17px 25px;
+    border-radius: 5px;
+    background-color: #335eea;
+    transition: all .4s ease-in-out;
+    display: inline-block;
+    
+}
+.botton-box-1 a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px 9px rgb(21 41 100 / 5%);
+    color: #fff;
+    text-decoration: none;
+}
+.button-box-2 {
+    padding: 0 5px;
+    
+}
+.button-box-2 a {
+    border: none;
+    padding: 17px 25px;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+    font-size: 18px;
+    color: #4e73ed;
+    background-color: #eaeffd;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+   display: inline-block;
+    
+}
+.button-box-2 a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px 9px rgb(21 41 100 / 5%);
+    color: #4e73ed;
+    text-decoration: none;
+}
+
+
+.col-button-box .botton-box-1 i {
+    font-size: 14px;
+    padding-left: 10px;
+    color: #fff;
+}
+
+.feature {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #f1f4f8;
+}
+.col-icon svg {
+    width: 48px;
+    height: auto;
+} 
+.feature-h {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+    line-height: 25px;
+    font-family: 'HK Grotesk Pro';
+    color: #161c2d;
+}
+.feature-p {
+    font-size: 19px;
+    line-height: 25px;
+    font-family: 'HK Grotesk Pro';
+    color: #969ab8;
+}
+.app {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #f1f4f8;
+}
+.col-pic {
+    transform: scale(0.8);
+    color: #869ab8!important;
+}
+
+.testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f9fbfd;
+}
+.testimonials .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -15px;
+    
+}
+.testimonials .col-box {
+    padding: 0 0 15px;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 8px 22px 10px rgba(20, 45, 100, 0.1);
+    background-color: #fff;
+    border-radius: 8px;
+}
+.testimonials .col-box:hover {
+    transform: translateY(-7px) ;
+}
+.col-box-card-body {
+    margin: 30px 30px;
+}
+.input#inputname {
+    margin: 15px 0;
+}
+input#inputEmail {
+    margin: 15px 0;
+}
+input#inputPassword {
+    margin: 15px 0;
+}
+.form-control {
+    border: none;
+    border-bottom: 1px solid #f1f4f8;
+    box-shadow: unset;
+    border-radius: unset;
+    padding: 26px 0px;
+
+}
+.form-control:focus {
+    border: none;
+    border-bottom: 1px solid #f1f4f8;
+    box-shadow: unset;
+} 
+.card-name {
+    color: #86a0bc;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.btn-primary:hover {
+    border-color: unset;
+    background-color: #389e80;
+}
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus  {
+    outline: unset;
+}
+.btn-primary.focus, .btn-primary:focus  {
+    background-color: unset;
+    border-color: unset;
+}
+.card-button {
+    font-family: 'HK Grotesk Pro';
+    transition: all .4s ease-in-out;
+    margin: 40px 0;
+    background-color: #42ba96;
+    padding: 16px 20px;
+}
+.card-button:hover {
+    transform: translateY(-7px) ;
+    box-shadow: 0 8px 22px 10px rgba(20, 45, 100, 0.1);
+}
+
+.col-img img {
+   width: 100%;
+   border-radius: 8px;
+}
+
+.col-box-text {
+    margin: auto;
+    width: 70%;
+}
+
+.col-box-text h2 {
+    margin: 0;
+    font-size: 32px;
+    line-height: 38px;
+    padding: 20px 0;
+    font-family: 'HK Grotesk Pro';
+}
+.col-box-text span {
+    color: #42ba96;
+}
+.col-box-text p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'HK Grotesk Pro';
+    color: #969ab8;
+}
+.col-box-text .row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.check-box {
+    padding: 25px 15px;
+}
+.col-guide {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-guide .icon {
+   color: #48ba96;
+}
+.icon-text p {
+    color: #48ba96;
+
+}
+
+
+
+.col-guide .icon i {
+    border-radius: 100%;
+    background-color: #e9f6f3;
+    color: #72c2b7;
+    font-size: 18px;
+    padding: 4px;
+    margin-bottom: 19px;
+    margin-right: 6px;
+}
+
+.experience {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #f9fbfd;
+}
+.experience .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    align-items: center;
+}
+.experience-box {
+    padding-right: 50px;
+}
+.contant-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.experience-heading h3 {
+    font-size: 32px;
+    margin: 0;
+    padding: 10px 0;
+    line-height: 35px;
+    font-family: 'HK Grotesk Pro';
+    color: #161c2d;
+}
+.experience-heading span {
+    color: #335eea;
+}
+.experience-heading p {
+    margin: 0;
+    font-size: 20px;
+    padding: 10px 0;
+    line-height: 28px;
+    font-family: 'HK Grotesk Pro';
+    color: #869ab8;
+}
+.experience-contant {
+    padding-top: 20px;
+}
+.experience-contant-bottom {
+    margin: 35px 0;
+}
+.content-icon {
+    padding: 0 15px;
+}
+.content-icon svg {
+    width: 48px;
+    height: auto;
+    margin: 0;
+}
+
+.content-text {
+    width: 90%;
+    padding: 0 15px;
+}
+.content-text p {
+    margin:0;
+    font-size: 20px;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+    color: #161c34;
+}
+.content-text span {
+    font-size: 18px;
+    font-family: 'HK Grotesk Pro';
+    color: #869ab8;
+}
+.experience-img {
+    width: 100%;
+    box-shadow: 0 8px 22px 10px rgba(20, 45, 100, 0.1);
+    transition: all .4s ease-in-out;
+}
+.experience-img:hover {
+    transform: translateY(-7px);
+}
+.customer {
+    padding-top: 60px;
+    background-color: #f9fbfd;
+}
+.customer .container h2 {
+    font-size: 31px;
+    margin: 0;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'HK Grotesk Pro';
+    color: #161c34;
+}
+.customer .container p {
+    margin: 0;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+    color: #869ab8; 
+    text-align: center;
+    padding: 20px 0;
+    font-size: 19px;
+}
+.customer-icon-text {
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+    color: #414654;
+    
+}
+.customer-box-bottom-text {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 0;
+    display: block;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+    color: #90a2be;
+}
+
+.customer-box {
+    width: 80%;
+    margin: 60px auto;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 22px 10px rgba(20, 45, 100, 0.1);
+    transition: all .4s ease-in-out;
+}
+.customer-box:hover {
+    transform: translateY(-7px);
+}
+
+.customer-box-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px;
+}
+.customer-box-img {
+    width: 40%;
+    padding: 0 15px;
+}
+
+.customer-box-text {
+    width: 60%;
+    padding: 10px 60px;
+}
+.customer-box-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.customer-box-tp {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -26px 0;
+}
+.customer-icon {
+    width: 100%;
+    height: auto;
+    transform: scale(0.4);
+    color: #FF5A5F!important;
+}
+
+
+.design {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    background-color: #eff2f6;
+}
+.design .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.design-col-text {
+    padding: 0 30px;
+}
+.design-col-text h2 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 40px;
+    font-family: 'HK Grotesk Pro';
+}
+.design-col-text p {
+    color: #506690;
+    font-family: 'HK Grotesk Pro';
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+    padding: 33px 0;
+    line-height: 32px;
+}
+
+.design-col-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-pe {
+    padding: 0 15px;
+}
+.col-pe h3 {
+    margin: 0;
+    font-family: 'HK Grotesk Pro';
+}
+.col-pe p {
+    color: #506690;
+    font-family: 'HK Grotesk Pro';
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+    padding: 5px 0;
+    line-height: 32px;
+}
+.pricing {
+    padding-top: 90px;
+    padding-bottom: 30px;
+    background-color: #eff2f6;
+}
+.pricing .pricing-top-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pricing-contant {
+    width: 60%;
+}
+.pricing-contant-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    justify-content: center;
+}
+.pricing-contant h2{
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    color: #161c2d;
+    font-family: 'HK Grotesk Pro';
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+.pricing-contant p {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px 0;
+    line-height: 30px;
+    color: #506690;
+    font-family: 'HK Grotesk Pro';
+}
+
+.pricing-contant-text {
+    padding: 0 15px;
+    font-size: 18px;
+    font-family: 'HK Grotesk Pro';
+    color: #869ec9;
+}
+.pricing-bottom-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 90px 0 0;
+}
+.col-pricing-left {
+    padding: 0;
+    z-index: 1;
+}
+.col-pricing-right {
+    padding: 40px 0;
+}
+.pricing-bottom-left {
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 8px 22px 10px rgba(20, 45, 100, 0.1);
+   
+}
+
+
+.pricing-bottom-contant {
+    padding: 60px 0 10px;
+    margin: 0 70px;
+}
+.pricing-bottom-contant span {
+    display: block;
+    text-align: center;
+    background-color: #eaeffd;
+    color: #335eea;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 3px 0;
+    margin: 0 40px;
+    
+}
+
+
+.pricing-bottom-right {
+    background-color: #ffffff;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0 8px 22px 10px rgba(20, 45, 100, 0.1);
+    
+}
+
+
+.pricing-bottom-left-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+.pricing-bottom-right-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+
+}
+.contant-1 {
+    display: block;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    padding: 15px 0 0;
+    font-family: 'HK Grotesk Pro';
+}
+
+.contant-p {
+    text-align: center;
+    margin: 0;
+    color: #869ab8;
+    font-size: 17px;
+    padding: 10px 0;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+}
+.pricing-contant-success ul{
+   list-style: none;
+   margin: 0;
+   padding: 50px 0;
+}
+.pricing-contant-success li {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -5px;
+}
+.pricing-contant-success li i {
+    width: 24px;
+    height: 24px;
+    padding: 5px 5px;
+    background-color: #ecf8f4;
+    color: #79bd9c;
+    border-radius: 50%;
+    margin: 7px;
+}
+.pricing-contant-success li p {
+    margin: 2px;
+    padding: 5px 5px;
+    font-size: 17px;
+    font-family: 'HK Grotesk Pro';
+}
+.pricing-button {
+    display: block;
+    text-align: center;
+}
+.pricing-bottom-left .pricing-button {
+    text-decoration: none;
+    background-color: #335eea;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+    padding: 20px 0;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.pricing-bottom-right-text p {
+    margin: 0;
+    font-size: 20px;
+    color: #869ab8;
+    text-align: center;
+    line-height: 31px;
+    padding: 80px 0;
+
+}
+.pricing-button-contact {
+    display: block;
+    text-align: center;
+    background-color: #d9e2ef;
+    color: #506690;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+    font-size: 18px;
+    padding: 20px 0;
+    border-bottom-right-radius: 6px;
+}
+.pricing-button-contact:hover {
+    text-decoration: none;
+}
+.buy {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    background-color: #1b2a4e;
+}
+.buy .row {
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.buy-contant {
+    padding: 0 15px;
+    
+}
+.col-client {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+.client-icon {
+    width: 50px;
+}
+.client-icon i {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #42ba96;
+    color: #fff;
+    padding: 5px 8px;
+}
+.client-text {
+    width: calc(100% - 50px);
+}
+.client-text p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+}
+.client-text span {
+    margin: 0;
+    color: #6a9ab8;
+    font-size: 17px;
+    display: block;
+    padding: 8px 0;
+    font-family: 'HK Grotesk Pro';
+}
+.client-bottom-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-client-text {
+    display: flex;
+    justify-content: center;
+}
+
+.col-client-bottom span {
+    display: block;
+    text-align: center;
+    color: #506690;
+    background-color: #203055;
+    font-family: 'HK Grotesk Pro';
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    font-size: 12px;
+   
+}
+.col-client-bottom h2 {
+    text-align: center;
+    color: #fff;
+    font-family: 'HK Grotesk Pro';
+    font-size: 35px;
+    margin: 0;
+    padding: 22px 0 16px;
+}
+.col-client-bottom p {
+    text-align: center;
+    color: #7f9ab5;
+    font-family: 'HK Grotesk Pro';
+    margin: 0;
+    font-size: 21px;
+}
+.client-button {
+    display: flex;
+    justify-content: center;
+    
+}
+.col-client-bottom .client-button a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'HK Grotesk Pro';
+    font-weight: 500;
+    margin: 75px 0;
+    background-color: #42ba96;
+    padding: 16px 16px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: all .4s ease-in-out;
+}
+.col-client-bottom .client-button i {
+   padding: 0 7px;
+}
+.col-client-bottom .client-button a:hover {
+    transform: translateY(-5px);
+    background-color: #359578;
+}
+.footer {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f1f4f8;
+}
+.footer-img img {
+   padding: 10px 0;
+}
+.footer-img p {
+    margin: 0;
+    font-family: 'HK Grotesk Pro';
+    color: #506690;
+    font-size: 18px;
+    padding: 6px 0;
+}
+.footer-media ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+.footer-media li a i {
+    padding: 3px 15px 0px 0px;
+    color: #869ab8;
+    font-size: 22px;
+}
+.footer-col-bottom .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-bottom-text {
+    margin: 20px 0 0;
+}
+.footer-col-bottom .footer-bottom-text h6 {
+   margin: 0;
+   text-transform: uppercase;
+   font-family: 'HK Grotesk Pro';
+   color: #506690;
+   font-size: 13px;
+}
+.footer-col-bottom .footer-bottom-text ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+.footer-col-bottom .footer-bottom-text li a {
+    text-decoration: none;
+    font-family: 'HK Grotesk Pro';
+    color: #869ab8;
+    font-size: 17px;
+    margin: 10px 0;
+    display: block;
+}
+.footer-col-bottom .footer-bottom-text li a:hover {
+    text-decoration: underline;
+    color: #869abe;
+}
+
+@media (min-width: 768px) {
+    .hide-desktop {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    
+    .bannar {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .col-text h1 {
+        font-size: 31px;
+        line-height: 40px;
+    }
+    .botton-box-1 a {
+        padding: 12px 9px;
+    }
+    .button-box-2 a {
+        padding: 12px 9px;
+    }
+    .feature {
+        padding-top: 35px;
+        padding-bottom: 60px;
+    }
+    .app  {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .col-pic {
+        transform: scale(0.9);
+    }
+    .col-box-text {
+        width: 80%;
+    }
+    .col-box-text h2 {
+        font-size: 26px;
+        line-height: 29px;
+    }
+    .testimonials {
+        padding-bottom: 40px;
+    }
+    .check-box {
+        padding: 27px 15px 0;
+    }
+    .col-guide .icon i {
+        margin-bottom: 8px;
+    }
+    .experience-box  {
+        padding-right: 0px;
+    }
+    .experience-heading h3  {
+        font-size: 22px;
+        padding: 10px 0 4px;
+        line-height: 30px;
+    }
+    .experience-contant {
+        padding-top: 6px;
+    }
+    .content-text p {
+        font-size: 19px;
+    }
+    .content-text span {
+        padding-top: 6px;
+        display: block;
+    }
+    .customer {
+        padding-top: 40px;
+    }
+    .customer .container h2 {
+        font-size: 27px;
+        padding: 16px 0;
+    }
+    .customer .container p {
+        padding: 8px 0;
+        font-size: 16px;
+    }
+    .customer-box-bottom-text {
+        padding: 8px 0;
+        font-size: 13px;
+    }
+    .design {
+        padding-top: 55px;
+    }
+    .design-col-text  {
+        padding: 0;
+    }
+    .design-col-text h2 {
+        font-size: 25px;
+        line-height: 35px;
+        padding: 30px 0 0;
+    }
+    .design-col-text p {
+        padding: 19px 0;
+        line-height: 27px;
+    }
+    .col-pe {
+        padding: 15px 15px;
+    }
+    .col-pe p {
+        padding: 20px 0;
+        line-height: 0;
+    }
+    .pricing {
+        padding-top: 30px;
+    }
+    .pricing-contant {
+        width: 70%;
+    }
+    .pricing-contant h2 {
+        letter-spacing: 0px;
+        font-size: 28px;
+    }
+    .pricing-contant p {
+        font-size: 17px;
+        padding: 20px 0;
+        line-height: 26px;
+    }
+    .pricing-bottom-left-row {
+        width: 100%;
+    }
+    .pricing-bottom-contant {
+        margin: 0 15px;
+    }
+    .contant-1 {
+        font-size: 44px;
+        padding: 7px 0 0;
+    }
+    .pricing-contant-success ul  {
+        padding: 20px 0 45px;
+    }
+    .pricing-contant-success li {
+        margin: 0 -11px;
+    }
+    .pricing-contant-success li i {
+        margin: 4px 0 2px 0;
+    }
+    .pricing-contant-success li p {
+        margin: 0;
+        font-size: 15px;
+        padding: 4px 0 0 23px;
+    }
+    .pricing-bottom-right-row {
+        width: 100%;
+    }
+    .pricing-bottom-right-text p {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 40px 0 79px;
+    }
+    .buy {
+        padding-top: 55px;
+        padding-bottom: 20px
+    }
+    .col-client-bottom {
+        margin: 60px 0 0;
+    }
+    .col-client-bottom h2  {
+        font-size: 32px;
+    }
+    .col-client-bottom p {
+        font-size: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .navbar-divice {
+        display: contents;
+    }
+    .nav-menu {
+        display: contents;
+    }
+    
+    .bannar .row  {
+        flex-direction: column-reverse;
+    }
+    .col-text h1 {
+        text-align: center;
+        padding: 20px 0 0;
+    } 
+    .col-p {
+        text-align: center;
+    }
+    .app .row {
+        width: 90%;
+        margin: auto;
+    }
+    .col-pic {
+        transform: scale(0.7);
+    }
+    .testimonials .row {
+        flex-direction: column-reverse;
+    }
+    .col-box-text .row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .col-guide .icon i {
+        margin-bottom: 18px;
+    }
+    .testimonials .col-box  {
+        margin: 60px 0 0;
+    }
+    .customer-box {
+        width: 430px;
+        height: auto;
+    }
+    .customer-box-img {
+        width: 100%;
+    }
+    .customer-box-text {
+        width: 100%;
+    }
+    .design .row {
+        flex-direction: column-reverse;
+    }
+    .col-pricing-left {
+        width: 60%;
+    }
+    .col-pricing-right {
+        width: 60%;
+    }
+    .footer-col-bottom {
+        margin: 20px 0 0;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+}
+@media (max-width: 575px) {
+    
+    
+    .col-text h1  {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .col-p  {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .botton-box-1 a  {
+        font-size: 16px;
+        margin: 0px 0 10px;
+    }
+    .button-box-2 a {
+        font-size: 16px;
+        padding: 12px 18px;
+    }
+    .feature  {
+        padding-bottom: 30px;
+    }
+    .feature-h {
+        margin: 0;
+        padding: 8px 0;
+        font-size: 20px;
+    }
+    .feature-p {
+        font-size: 17px;
+    }
+    .icon-box {
+        margin: 30px 0;
+    }
+    .app {
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+
+    .app .app-logo-column {
+        width: 50%;
+    }
+    .col-pic svg {
+        margin: 10px 0;
+    }
+    .col-pic {
+        transform: scale(0.9);
+    }
+    .testimonials  {
+        padding-top: 20px;
+    }
+    .card-name {
+        font-size: 16px;
+    }
+    .card-button {
+        font-size: 15px;
+        text-align: center;
+        padding: 16px 8px;
+    }
+    .col-box-text {
+        width: 100%;
+    }
+    .col-box-text h2 {
+        font-size: 23px;
+        line-height: 27px;
+        padding: 10px 0;
+    }
+    .col-box-text p  {
+        font-size: 17px;
+    }
+    .testimonials .col-box  {
+        margin: 32px 0 0;
+    }
+    .experience {
+        padding-top: 0px;
+    }
+    .experience-heading h3 {
+        margin: 0;
+        font-size: 21px;
+        padding: 4px 0 4px;
+        line-height: 24px;
+    }
+    .content-icon svg  {
+        margin: 0;
+    }
+    .content-text {
+        width: 100%;
+        margin-top: 0;
+    }
+    .content-text p {
+        font-size: 18px;
+    }
+    .content-text span {
+        padding-top: 3px;
+        margin: 0;
+        font-size: 17px;
+    }
+    .experience-contant-bottom {
+        margin: 25px 0;
+    }
+    .experience .img-fluid {
+        margin: 18px 0;
+    }
+    .customer  {
+        padding-top: 10px;
+    }
+    .customer-box {
+        width: 100%;
+    }
+    .customer .container h2  {
+        font-size: 21px;
+        padding: 10px 0;
+    }
+    .customer .container p  {
+        padding: 3px 0;
+        font-size: 17px;
+    }
+    .customer-box-tp {
+        margin: 0 0 -9px;
+    }
+    .customer-box-bottom-text {
+        padding: 18px 0;
+    }
+    .design-col-text h2 {
+        font-size: 21px;
+        line-height: 28px;
+        padding: 37px 0 0;
+    }
+    .design-col-text p {
+        padding: 12px 0;
+        font-size: 18px;
+    }
+    .col-pe {
+        padding: 5px 12px;
+    }
+    .col-pe h3 {
+        font-size: 21px;
+    }
+    .col-pe p {
+        font-size: 17px;
+    }
+    .design {
+        padding-bottom: 20px;
+    }
+    .pricing {
+        padding-top: 10px;
+    }
+    .pricing-contant h2 {
+        font-size: 21px;
+    }
+    .pricing-contant p {
+        padding: 11px 0;
+    }
+    .pricing-bottom-row {
+        margin: 35px 0 0;
+    }
+    .pricing-bottom-contant  {
+        padding: 30px 0 10px;
+    }
+    .pricing-contant-success ul {
+        padding: 10px 0 35px;
+    }
+    .pricing-contant-success li {
+        margin: 10px -20px;
+    }
+    .pricing-contant-success li p {
+        padding: 4px 0 0 14px;
+    }
+    .pricing-bottom-left .pricing-button {
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    .pricing-bottom-right-text p {
+        font-size: 17px;
+        line-height: 24px;
+        padding: 25px 0 45px;
+    }
+    .pricing-button-contact {
+        font-size: 16px;
+        padding: 16px 0;
+    }
+    .col-client-bottom h2 {
+        font-size: 25px;
+    }
+    .col-client-bottom p {
+        font-size: 19px;
+    }
+    .col-client-bottom .client-button a {
+        margin: 45px 0;
+        font-size: 16px;
+    }
+    .col-pricing-left {
+        width: 90%;
+    }
+    .col-pricing-right {
+        width: 90%;
+    }
+    .footer {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .footer-img p {
+        padding: 0px 0;
+    }
+}
