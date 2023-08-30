@@ -1227,6 +1227,13 @@ input#inputPassword {
     }
     .testimonials .col-box  {
         margin: 32px 0 0;
+        padding: 0 0 1px;
+    }
+    .form-control {
+        padding: 18px 0px;
+    }
+    .col-box-card-body {
+        margin: 20px 20px;
     }
     .experience {
         padding-top: 0px;
